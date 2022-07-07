@@ -6,7 +6,7 @@ inputs:
   MY_NAME:
     description: "Who to say hi"
     required: true
-    default: "All"
+    default: "Nobody"
 
 runs:
   using: "docker"
