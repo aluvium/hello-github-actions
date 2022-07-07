@@ -1,0 +1,17 @@
+name: "My Docker Container Actions"
+description: "Say Hello"
+author: "aluvium"
+
+inputs:
+  MY_NAME:
+    description: "Who to say hi"
+    required: true
+    default: "All"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding: 
+  icon: "mic"
+  color: "red"
